@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+}
+
+header {
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    color: #E50914;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-links a, .navbar .nav-links button {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.join-btn, .signin-btn {
+    background-color: #E50914;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.next-watch, .comedy-movies {
+    margin-top: 40px;
+}
+
+.next-watch h2, .comedy-movies h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.next-watch-cards, .comedy-movies-cards {
+    display: flex;
+    overflow-x: auto;
+}
+
+.card {
+    position: relative;
+    margin-right: 10px;
+}
+
+.card img {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.card p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #E50914;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.comedy-movies-cards .card {
+    width: 150px;
+}
+
+.comedy-movies-cards .card img {
+    width: 150px;
+    height: 225px;
+}
+
+.comedy-movies-cards .card p {
+    font-size: 14px;
+}
